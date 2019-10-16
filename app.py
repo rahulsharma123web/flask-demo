@@ -33,7 +33,7 @@ def pred():
 
     results = []
     
-    clf=joblib.load('FinalFile.pkl')
+    clf=joblib.load('FinalFile.pkll')
     for row in rows[:5]: 
         input = []
     for col in row: 
